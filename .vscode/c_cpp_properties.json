@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../common/ev3api/include/",
+                "${workspaceFolder}/../../../target/ev3_gcc/",
+                "${workspaceFolder}/../../../include/",
+                "${workspaceFolder}/../../../kernel/",
+                "${workspaceFolder}/../../../arch/arm_gcc/am1808/",
+                "${workspaceFolder}/../../common/library/libcpp-ev3/include/",
+                "${workspaceFolder}/../../../arch/",
+                "${workspaceFolder}/../../../arch/arm_gcc/common/",
+                "${workspaceFolder}/../../OBJ/",
+                "${workspaceFolder}/../../../base-workspace/OBJ"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}

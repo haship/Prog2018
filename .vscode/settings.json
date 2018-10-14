@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "app.h": "c",
+        "balancer.h": "c",
+        "ev3api.h": "c",
+        "target_test.h": "c",
+        "touchsensor.h": "c",
+        "ev3api_rtos.h\u0000api_rtos.h": "c",
+        "ev3api_rtos.h\u0000rtos.h": "c"
+    }
+}
