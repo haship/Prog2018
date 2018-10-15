@@ -1,7 +1,7 @@
 //TouchSensor.h
 
-#ifndef TOUCHSENSOR_H_
-#define TOUCHSENSOR_H_
+#ifndef ROBOT_DEVICE_TOUCHSENSOR_H_
+#define ROBOT_DEVICE_TOUCHSENSOR_H_
 
 #include "ev3api.h"
 // #include "app.h"
@@ -18,4 +18,4 @@ typedef struct TouchSensor {
 void TouchSensor_init(TouchSensor* this, sensor_port_t port);
 bool_t TouchSensor_isPressed(TouchSensor* this);
 
-#endif//TOUCHSENSOR_H_
+#endif//ROBOT_DEVICE_TOUCHSENSOR_H_
