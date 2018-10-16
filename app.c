@@ -22,6 +22,18 @@
 #include "kernel_cfg.h"
 #endif
 
+#include "robot/device/TouchSensor.h"
+#include "robot/device/SonarSensor.h"
+#include "robot/device/ColorSensor.h"
+#include "robot/device/GyroSensor.h"
+#include "robot/device/Motor.h"
+#include "robot/tech/PIDControl.h"
+#include "robot/tech/LowPassFilter.h"
+#include "robot/EV3way.h"
+#include "strategy/course/Section.h"
+#include "strategy/course/Stage.h"
+#include "strategy/course/Course.h"
+
 #define DEBUG
 
 #ifdef DEBUG
