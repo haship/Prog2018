@@ -12,6 +12,7 @@ void ColorSensor_init(ColorSensor* this, sensor_port_t port){
     this->mType = COLOR_SENSOR;
     ev3_sensor_config(this->mPort, this->mType);
     this->output = 0.0F;
+    ev3_color_sensor_get_reflect(this->mPort);
 }
 
 uint8_t ColorSensor_getBrightness(ColorSensor* this){
