@@ -33,6 +33,8 @@
 #include "strategy/course/Section.h"
 #include "strategy/course/Stage.h"
 #include "strategy/course/Course.h"
+#include "strategy/walker/BalanceWalker.h"
+#include "strategy/walker/TailWalker.h"
 #include "app/Calibration.h"
 
 #define DEBUG
