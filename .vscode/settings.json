@@ -10,6 +10,7 @@
         "ev3api_button.h\u0000i_button.h": "c",
         "ev3api_button.h\u0000tton.h": "c",
         "ev3api_fs.h\u0000i_fs.h": "c",
-        "ev3api_fs.h\u0000v3api_fs.h": "c"
+        "ev3api_fs.h\u0000v3api_fs.h": "c",
+        "kernel.h": "c"
     }
 }
